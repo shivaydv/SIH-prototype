@@ -68,6 +68,7 @@ const Dashboard =()=> {
 
   const handleDownloadReport = () => {
     console.log("Downloading report...")
+    setRole("clerk")
 
   }
 

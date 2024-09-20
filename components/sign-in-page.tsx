@@ -13,10 +13,7 @@ export function SignInPageComponent() {
   const [password, setPassword] = useState("")
   const [role, setRole] = useState("")
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Sign in attempted with:", { id, password, role })
-  }
+ 
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
