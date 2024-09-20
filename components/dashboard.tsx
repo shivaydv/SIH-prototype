@@ -93,7 +93,7 @@ const Dashboard =()=> {
               </SelectContent>
             </Select> */}
             <Button onClick={handleDownloadReport}>
-              <DownloadIcon className="mr-2 h-4 w-4" /> <a href="./Report.html" download={"Report.csv"}> Download Report</a>
+              <DownloadIcon className="mr-2 h-4 w-4" /> <a href="./Report.csv" download={"Report.csv"}> Download Report</a>
             </Button>
             <Button asChild variant={"destructive"}>
                <Link href="/" >Sign Out</Link>
